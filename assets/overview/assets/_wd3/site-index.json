@@ -1,0 +1,492 @@
+{
+ "version": 1,
+ "tool": "wd3 0.1.0",
+ "captureId": "sable-fashion-39.aura.build-5774de14",
+ "capturedAt": "2026-11-02T14:48:03+00:00",
+ "entry": {
+  "url": "https://sable-fashion-39.aura.build/",
+  "path": "/",
+  "search": "",
+  "file": "assets/sable-fashion-39.aura.build/index.html",
+  "contentType": "text/html; charset=utf-8"
+ },
+ "blocked": [
+  "^https?://([^/?#]+\\.)?(google\\-analytics\\.com|analytics\\.google\\.com|googletagmanager\\.com|googleadservices\\.com|doubleclick\\.net|googlesyndication\\.com|googleoptimize\\.com|connect\\.facebook\\.net|bat\\.bing\\.com|snap\\.licdn\\.com|px\\.ads\\.linkedin\\.com|analytics\\.tiktok\\.com|ct\\.pinterest\\.com|static\\.ads\\-twitter\\.com|analytics\\.twitter\\.com|tr\\.snapchat\\.com|sc\\-static\\.net|mc\\.yandex\\.ru|hotjar\\.com|hotjar\\.io|clarity\\.ms|cdn\\.segment\\.com|api\\.segment\\.io|cdn\\.mxpnl\\.com|api\\-js\\.mixpanel\\.com|api\\.mixpanel\\.com|api\\.amplitude\\.com|api2\\.amplitude\\.com|api\\-secure\\.amplitude\\.com|api\\-sr\\.amplitude\\.com|sr\\-client\\-cfg\\.amplitude\\.com|plausible\\.io|cloud\\.umami\\.is|analytics\\.umami\\.is|static\\.cloudflareinsights\\.com|cloudflareinsights\\.com|vitals\\.vercel\\-insights\\.com|browser\\-intake\\-datadoghq\\.com|browser\\-intake\\-datadoghq\\.eu|js\\-agent\\.newrelic\\.com|bam\\.nr\\-data\\.net|bam\\-cell\\.nr\\-data\\.net|fullstory\\.com|script\\.crazyegg\\.com|mouseflow\\.com|smartlook\\.com|heapanalytics\\.com|i\\.posthog\\.com|stats\\.wp\\.com|pixel\\.wp\\.com|promotekit\\.com|ingest\\.sentry\\.io|ingest\\.us\\.sentry\\.io|ingest\\.de\\.sentry\\.io|widget\\.intercom\\.io|js\\.intercomcdn\\.com|api\\-iam\\.intercom\\.io|js\\.hs\\-scripts\\.com|js\\.hs\\-analytics\\.net|js\\.hs\\-banner\\.com|js\\.hscollectedforms\\.net|js\\.usemessages\\.com|track\\.hubspot\\.com|client\\.crisp\\.chat|embed\\.tawk\\.to|js\\.driftt\\.com|static\\.zdassets\\.com|ekr\\.zdassets\\.com|cdn\\.cookielaw\\.org|geolocation\\.onetrust\\.com|consent\\.cookiebot\\.com|consentcdn\\.cookiebot\\.com|app\\.usercentrics\\.eu|api\\.usercentrics\\.eu|cdn\\.iubenda\\.com|cmp\\.osano\\.com|cdn\\.termly\\.io)(:\\d+)?([/?#]|$)",
+  "/rpc/increment_shared_code_views",
+  "^https?://(umami|analytics|stats|plausible)\\.[^/]+/(api/send|api/collect|api/event|script\\.js)",
+  "/g/c(ollect)?\\?v=2&",
+  "sentry\\.io/api/\\d+/(envelope|store)",
+  "/api/meta-capi",
+  "^https?://(leadtracker|tracking|track|events?|collect)\\.[^/]+/",
+  "^https?://a\\.vturb\\.com/",
+  "facebook\\.com/tr[/?]",
+  "/_vercel/(speed-)?insights/",
+  "/cdn-cgi/rum",
+  "/cdn-cgi/challenge-platform/",
+  "google\\.com/(pagead|ads)/"
+ ],
+ "volatileParams": [
+  "v",
+  "_rsc",
+  "dpl",
+  "_",
+  "t",
+  "ts",
+  "timestamp",
+  "cb",
+  "cachebust",
+  "cacheBust",
+  "nocache",
+  "rnd",
+  "rand",
+  "random",
+  "_t"
+ ],
+ "entries": [
+  {
+   "url": "https://sable-fashion-39.aura.build/",
+   "method": "GET",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "headers": {
+    "content-type": "text/html; charset=utf-8"
+   },
+   "resourceType": "document",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/sable-fashion-39.aura.build/index.html",
+   "size": 38386
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.webp",
+   "size": 169596,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/model.png",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/png",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/png",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/model.png",
+   "size": 437096,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.tailwindcss.com/",
+   "method": "GET",
+   "status": 302,
+   "contentType": "",
+   "headers": {
+    "location": "/3.4.17"
+   },
+   "resourceType": "script",
+   "passes": [
+    "desktop"
+   ],
+   "size": 0,
+   "redirect": "https://cdn.tailwindcss.com/3.4.17",
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap",
+   "method": "GET",
+   "status": 200,
+   "contentType": "text/css; charset=utf-8",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "text/css; charset=utf-8",
+    "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+    "timing-allow-origin": "*"
+   },
+   "resourceType": "stylesheet",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/fonts.googleapis.com/css2__qd930ff34.css",
+   "size": 8190,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.tailwindcss.com/3.4.17",
+   "method": "GET",
+   "status": 200,
+   "contentType": "text/javascript",
+   "headers": {
+    "content-type": "text/javascript"
+   },
+   "resourceType": "script",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.tailwindcss.com/3.4.17.js",
+   "size": 407279,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2",
+   "method": "GET",
+   "status": 200,
+   "contentType": "font/woff2",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "font/woff2",
+    "timing-allow-origin": "*"
+   },
+   "resourceType": "font",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2",
+   "size": 34940,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-tailoring.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-tailoring.webp",
+   "size": 13218,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-overshirt.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-overshirt.webp",
+   "size": 45866,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-cardigan.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-cardigan.webp",
+   "size": 76578,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/season.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/season.webp",
+   "size": 23760,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-knit.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-knit.webp",
+   "size": 73658,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-tee.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-tee.webp",
+   "size": 23644,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-men.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-men.webp",
+   "size": 9054,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-women.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-women.webp",
+   "size": 27722,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look2.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "priority": "u=3,i",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look2.webp",
+   "size": 249722,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look1.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "priority": "u=3,i",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look1.webp",
+   "size": 84242,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/atelier.webp",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/webp",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "content-type": "image/webp",
+    "priority": "u=3,i",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/atelier.webp",
+   "size": 116814,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.mp4",
+   "method": "GET",
+   "status": 200,
+   "contentType": "video/mp4",
+   "headers": {
+    "content-type": "video/mp4",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "timing-allow-origin": "*",
+    "x-jsd-version": "sable-v2",
+    "x-jsd-version-type": "branch"
+   },
+   "resourceType": "media",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.mp4",
+   "size": 327376,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://sable-fashion-39.aura.build/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/vnd.microsoft.icon",
+   "headers": {
+    "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+    "content-type": "image/vnd.microsoft.icon",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-nf-request-id": "01M6EBQBJ6G1F4BSSRE5C21BMX"
+   },
+   "resourceType": "other",
+   "passes": [
+    "desktop"
+   ],
+   "file": "assets/sable-fashion-39.aura.build/favicon.ico",
+   "size": 696
+  }
+ ],
+ "adapter": {
+  "name": "aura-html",
+  "notes": [
+   "site extraído do iframe srcdoc; 3 scripts do Aura removidos"
+  ]
+ },
+ "videos": {
+  "posters": {},
+  "onlineHosts": []
+ }
+}

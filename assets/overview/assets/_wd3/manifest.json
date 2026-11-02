@@ -1,0 +1,244 @@
+{
+ "entryUrl": "https://sable-fashion-39.aura.build/",
+ "capturedAt": "2026-11-02T14:48:03+00:00",
+ "indexHtml": {
+  "kind": "arquivo",
+  "description": "site vivo aberto com duplo clique (file://): um runtime faz o papel do Service Worker; imagens e vídeos que a página só exibe são lidos de assets/, o resto (CSS, JS, fontes, dados, imagens de WebGL) vai embutido no index.html"
+ },
+ "files": [
+  {
+   "url": "https://sable-fashion-39.aura.build/favicon.ico",
+   "file": "assets/sable-fashion-39.aura.build/favicon.ico",
+   "type": "image/vnd.microsoft.icon",
+   "resourceType": "other",
+   "size": 696,
+   "status": 200,
+   "party": "first",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://sable-fashion-39.aura.build/",
+   "file": "assets/sable-fashion-39.aura.build/index.html",
+   "type": "text/html",
+   "resourceType": "document",
+   "size": 38386,
+   "status": 200,
+   "party": "first",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/atelier.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/atelier.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 116814,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-men.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-men.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 9054,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-tailoring.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-tailoring.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 13218,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-women.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cat-women.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 27722,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.mp4",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.mp4",
+   "type": "video/mp4",
+   "resourceType": "media",
+   "size": 327376,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/cloth.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 169596,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look1.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look1.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 84242,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look2.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/look2.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 249722,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/model.png",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/model.png",
+   "type": "image/png",
+   "resourceType": "image",
+   "size": 437096,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-cardigan.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-cardigan.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 76578,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-knit.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-knit.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 73658,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-overshirt.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-overshirt.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 45866,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-tee.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/p-tee.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 23644,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/season.webp",
+   "file": "assets/cdn.jsdelivr.net/gh/VanhDc/aura-assets@sable-v2/sable/img/season.webp",
+   "type": "image/webp",
+   "resourceType": "image",
+   "size": 23760,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.tailwindcss.com/3.4.17",
+   "file": "assets/cdn.tailwindcss.com/3.4.17.js",
+   "type": "text/javascript",
+   "resourceType": "script",
+   "size": 407279,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ],
+   "library": {
+    "name": "tailwindcss (Play CDN)",
+    "version": "3.4.17"
+   },
+   "role": "library"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap",
+   "file": "assets/fonts.googleapis.com/css2__qd930ff34.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 8190,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2",
+   "file": "assets/fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2",
+   "type": "font/woff2",
+   "resourceType": "font",
+   "size": 34940,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop"
+   ]
+  }
+ ]
+}
