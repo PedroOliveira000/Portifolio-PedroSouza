@@ -1013,7 +1013,7 @@
     }
     doc.querySelector('#hm')?.remove();
     var cats = doc.querySelector('#cats');
-    if (cats) cats.innerHTML = '<div class="wrap about"><h1>sobre mim</h1><p class="about-copy"></p></div>';
+    if (cats) cats.innerHTML = '<div class="wrap about"><figure class="about-photo"><img src="assets/pedro-souza.png" alt="Retrato de Pedro Souza"></figure><div class="about-copy"><h1>sobre mim</h1><p>Sou um estudante interessado em tecnologia, ciência e inovação, especialmente nas áreas de Inteligência Artificial, programação e ciências naturais. Acredito que o conhecimento é uma ferramenta de transformação e procuro constantemente desenvolver novas habilidades por meio de estudos, projetos e experiências práticas.</p><p>Tenho interesse em compreender como a tecnologia pode solucionar problemas reais, unindo pensamento científico, criatividade e desenvolvimento tecnológico.</p></div></div>';
     var seasonCopy = doc.querySelector('#season .copy');
     if (seasonCopy) seasonCopy.innerHTML = '<h2 class="rv portfolio-heading">objetivos pessoais e profissionais</h2>';
     var academicHeading = doc.querySelector('#shop .hd h2');
@@ -1025,7 +1025,7 @@
     var achievements = doc.querySelector('#look .lhd');
     if (achievements) achievements.innerHTML = '<h2 class="rv portfolio-heading">conquistas e reconhecimentos</h2>';
     var dsStyle = doc.createElement('style');
-    dsStyle.textContent = '.ann,body>nav,#prog{display:none!important}#hero{min-height:100svh}#hero .word b#wb{font-size:clamp(42px,10vw,150px);letter-spacing:-.04em}#cats .about{display:block}#cats .about h1{font-size:clamp(42px,7vw,84px);font-weight:800;line-height:.95;letter-spacing:-.035em;text-transform:none}#cats .about-copy{min-height:220px;max-width:760px}#season .copy h2.portfolio-heading{ text-transform:none }#shop .hd h2{ text-transform:none }#look .lhd{grid-template-columns:1fr}#look .lhd h2.portfolio-heading{text-transform:none;line-height:1.05;max-width:20ch}';
+    dsStyle.textContent = '.ann,body>nav,#prog{display:none!important}#hero{min-height:100svh}#hero .word b#wb{font-size:clamp(42px,10vw,150px);letter-spacing:-.04em}#cats .about{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1fr);gap:clamp(30px,7vw,110px);align-items:center}#cats .about-photo{height:clamp(420px,50vw,680px);display:flex;align-items:flex-end;justify-content:center;overflow:hidden;background:var(--bone)}#cats .about-photo img{width:100%;height:100%;object-fit:contain;object-position:center bottom;filter:none}#cats .about h1{font-size:clamp(42px,7vw,84px);font-weight:800;line-height:.95;letter-spacing:-.035em;text-transform:none;color:var(--bone)}#cats .about-copy{min-height:0;max-width:700px}#cats .about-copy p{color:rgba(239,237,232,.82);font-size:clamp(14px,1.1vw,17px);line-height:1.8;margin-top:22px}@media(max-width:760px){#cats .about{grid-template-columns:1fr;gap:16px}#cats .about-photo{height:min(95vw,500px)}#cats .about-copy{padding-bottom:26px}#cats .about h1{font-size:clamp(42px,11vw,64px)}}#season .copy h2.portfolio-heading{ text-transform:none }#shop .hd h2{ text-transform:none }#look .lhd{grid-template-columns:1fr}#look .lhd h2.portfolio-heading{text-transform:none;line-height:1.05;max-width:20ch}';
     doc.head.appendChild(dsStyle);
     var root = doc.documentElement;
     var attrs = Array.prototype.map.call(root.attributes, function (a) {
