@@ -1018,6 +1018,10 @@
     if (seasonCopy) seasonCopy.innerHTML = '<h2 class="rv portfolio-heading">objetivos pessoais e profissionais</h2>';
     var academicHeading = doc.querySelector('#shop .hd h2');
     if (academicHeading) academicHeading.textContent = 'Acadêmico';
+    doc.querySelector('#shop .hd > a')?.remove();
+    var academicCleanup = doc.createElement('script');
+    academicCleanup.textContent = "document.querySelector('#shop #grid')?.remove();";
+    doc.body.appendChild(academicCleanup);
     var achievements = doc.querySelector('#look .lhd');
     if (achievements) achievements.innerHTML = '<h2 class="rv portfolio-heading">conquistas e reconhecimentos</h2>';
     var dsStyle = doc.createElement('style');
