@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SABLE Design System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/sable-source.css">
+<style>
+html,body{height:100%;overflow:hidden}
+body{min-height:100vh}
+.catalog-nav ul a[aria-current="page"]::after{transform:scaleX(1);transform-origin:left}
+.catalog-nav ul a[aria-disabled="true"]{opacity:.38;cursor:default}
+.catalog-nav .util a{white-space:nowrap}
+.catalog-stage{height:calc(100vh - var(--nav));width:100%;overflow:hidden}
+.catalog-stage iframe{display:block;width:100%;height:100%;border:0}
+@media(max-width:900px){.catalog-nav ul{display:flex!important;gap:16px}.catalog-nav ul a{font-size:9px;letter-spacing:.08em}.catalog-nav .bar{gap:8px}.catalog-nav .mk{font-size:19px}.catalog-nav .util{font-size:9px;gap:8px}}
+</style>
+</head>
+<body>
+<nav class="catalog-nav">
+  <div class="wrap bar">
+    <ul><li><a href="#overview" data-view="overview" aria-current="page">Overview</a></li><li><a id="componentsTab" href="#components" aria-disabled="true" tabindex="-1">Components</a></li></ul>
+    <div class="mk">SABLE</div>
+    <div class="util">
+      <span>Search</span><span>Account</span>
+      <a href="#shop">Bag (<b id="bagn">0</b>)</a>
+    </div>
+  </div>
+</nav>
+<main id="overview" class="catalog-stage">
+<iframe name="overviewFrame" title="SABLE Design System Overview" src="assets/overview/index.html"></iframe>
+</main>
+<script>
+(function(){
+  const tabs=[...document.querySelectorAll('[data-view]')];
+  const components=document.getElementById('componentsTab');
+  function select(){
+    if(location.hash==='#components') history.replaceState(null,'','#overview');
+    if(!location.hash) history.replaceState(null,'','#overview');
+    tabs.forEach(a=>{if(a.getAttribute('href')===location.hash)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+  }
+  components.addEventListener('click',e=>e.preventDefault());
+  addEventListener('hashchange',select);
+  select();
+})();
+</script>
+</body>
+</html>
