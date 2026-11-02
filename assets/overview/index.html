@@ -10,7 +10,7 @@
  *
  * Aberto via file://, o navegador não deixa rodar Service Worker, bloqueia fetch/XHR, fontes e módulos, e
  * resolve caminhos como /assets/x.png para a raiz do disco. Este script faz dentro da própria página o papel do
- * sw.js: o que o site pede (fetch, XHR, <img>, <script>, CSS, fontes, módulos, workers) é atendido com blob: URLs
+ * sw.js: o que o site pede (fetch, XHR, <img>, <script>, CSS, fontes,módulos, workers) é atendido com blob: URLs
  * dos arquivos embutidos em base64 no .html, ou com o caminho em assets/ ("f" no registro: imagens, vídeos e
  * scripts clássicos que o navegador só pediu em no-cors). O que não foi gravado vai para a URL original (online) e
  * fica anotado como falta.
@@ -1004,8 +1004,10 @@
         textNode.nodeValue = lead + editorial[trimmed] + tail;
       }
     }
+    var cats = doc.querySelector('#cats');
+    if (cats) cats.innerHTML = '<div class="wrap about"><h1>sobre mim</h1><p class="about-copy"></p></div>';
     var dsStyle = doc.createElement('style');
-    dsStyle.textContent = '.ann,body>nav,#prog{display:none!important}#hero{min-height:100svh}';
+    dsStyle.textContent = '.ann,body>nav,#prog{display:none!important}#hero{min-height:100svh}#cats .about{display:block}#cats .about h1{font-size:clamp(42px,7vw,84px);font-weight:800;line-height:.95;letter-spacing:-.035em;text-transform:none}#cats .about-copy{min-height:220px;max-width:760px}';
     doc.head.appendChild(dsStyle);
     var root = doc.documentElement;
     var attrs = Array.prototype.map.call(root.attributes, function (a) {
