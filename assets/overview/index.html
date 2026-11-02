@@ -1014,8 +1014,14 @@
     doc.querySelector('#hm')?.remove();
     var cats = doc.querySelector('#cats');
     if (cats) cats.innerHTML = '<div class="wrap about"><h1>sobre mim</h1><p class="about-copy"></p></div>';
+    var seasonCopy = doc.querySelector('#season .copy');
+    if (seasonCopy) seasonCopy.innerHTML = '<h2 class="rv portfolio-heading">objetivos pessoais e profissionais</h2>';
+    var academicHeading = doc.querySelector('#shop .hd h2');
+    if (academicHeading) academicHeading.textContent = 'Acadêmico';
+    var achievements = doc.querySelector('#look .lhd');
+    if (achievements) achievements.innerHTML = '<h2 class="rv portfolio-heading">conquistas e reconhecimentos</h2>';
     var dsStyle = doc.createElement('style');
-    dsStyle.textContent = '.ann,body>nav,#prog{display:none!important}#hero{min-height:100svh}#hero .word b#wb{font-size:clamp(42px,10vw,150px);letter-spacing:-.04em}#cats .about{display:block}#cats .about h1{font-size:clamp(42px,7vw,84px);font-weight:800;line-height:.95;letter-spacing:-.035em;text-transform:none}#cats .about-copy{min-height:220px;max-width:760px}';
+    dsStyle.textContent = '.ann,body>nav,#prog{display:none!important}#hero{min-height:100svh}#hero .word b#wb{font-size:clamp(42px,10vw,150px);letter-spacing:-.04em}#cats .about{display:block}#cats .about h1{font-size:clamp(42px,7vw,84px);font-weight:800;line-height:.95;letter-spacing:-.035em;text-transform:none}#cats .about-copy{min-height:220px;max-width:760px}#season .copy h2.portfolio-heading{ text-transform:none }#shop .hd h2{ text-transform:none }#look .lhd{grid-template-columns:1fr}#look .lhd h2.portfolio-heading{text-transform:none;line-height:1.05;max-width:20ch}';
     doc.head.appendChild(dsStyle);
     var root = doc.documentElement;
     var attrs = Array.prototype.map.call(root.attributes, function (a) {
