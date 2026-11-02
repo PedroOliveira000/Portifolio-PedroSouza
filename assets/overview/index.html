@@ -1013,7 +1013,8 @@
     }
     doc.querySelector('#hm')?.remove();
     var cats = doc.querySelector('#cats');
-    if (cats) cats.innerHTML = '<div class="wrap about"><figure class="about-photo"><img src="assets/pedro-souza.png" alt="Retrato de Pedro Souza"></figure><div class="about-copy"><h1>sobre mim</h1><p>Sou um estudante interessado em tecnologia, ciência e inovação, especialmente nas áreas de Inteligência Artificial, programação e ciências naturais. Acredito que o conhecimento é uma ferramenta de transformação e procuro constantemente desenvolver novas habilidades por meio de estudos, projetos e experiências práticas.</p><p>Tenho interesse em compreender como a tecnologia pode solucionar problemas reais, unindo pensamento científico, criatividade e desenvolvimento tecnológico.</p></div></div>';
+    var aboutImageUrl = new URL('assets/pedro-souza.png', W.location.href).href;
+    if (cats) cats.innerHTML = '<div class="wrap about"><figure class="about-photo"><img src="' + aboutImageUrl + '" alt="Retrato de Pedro Souza"></figure><div class="about-copy"><h1>sobre mim</h1><p>Sou um estudante interessado em tecnologia, ciência e inovação, especialmente nas áreas de Inteligência Artificial, programação e ciências naturais. Acredito que o conhecimento é uma ferramenta de transformação e procuro constantemente desenvolver novas habilidades por meio de estudos, projetos e experiências práticas.</p><p>Tenho interesse em compreender como a tecnologia pode solucionar problemas reais, unindo pensamento científico, criatividade e desenvolvimento tecnológico.</p></div></div>';
     var seasonCopy = doc.querySelector('#season .copy');
     if (seasonCopy) seasonCopy.innerHTML = '<h2 class="rv portfolio-heading">objetivos pessoais e profissionais</h2>';
     var academicHeading = doc.querySelector('#shop .hd h2');
