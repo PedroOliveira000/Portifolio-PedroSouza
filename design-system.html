@@ -24,12 +24,8 @@ body{min-height:100vh}
 <body>
 <nav class="catalog-nav">
   <div class="wrap bar">
-    <ul><li><a href="#overview" data-view="overview" aria-current="page">Overview</a></li><li><a id="componentsTab" href="#components" aria-disabled="true" tabindex="-1">Components</a></li></ul>
+    <ul><li><a href="#overview" data-view="overview" aria-current="page">Overview</a></li></ul>
     <div class="mk">PEDRO SOUZA</div>
-    <div class="util">
-      <span>Search</span><span>Account</span>
-      <a href="#shop">Bag (<b id="bagn">0</b>)</a>
-    </div>
   </div>
 </nav>
 <main id="overview" class="catalog-stage">
@@ -38,13 +34,11 @@ body{min-height:100vh}
 <script>
 (function(){
   const tabs=[...document.querySelectorAll('[data-view]')];
-  const components=document.getElementById('componentsTab');
   function select(){
     if(location.hash==='#components') history.replaceState(null,'','#overview');
     if(!location.hash) history.replaceState(null,'','#overview');
     tabs.forEach(a=>{if(a.getAttribute('href')===location.hash)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   }
-  components.addEventListener('click',e=>e.preventDefault());
   addEventListener('hashchange',select);
   select();
 })();
