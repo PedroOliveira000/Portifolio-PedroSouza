@@ -19,13 +19,18 @@ body{min-height:100vh}
 @media(max-width:900px){.catalog-nav ul{display:flex!important;gap:16px}.catalog-nav ul a{font-size:9px;letter-spacing:.08em}.catalog-nav .bar{gap:8px}.catalog-nav .mk{font-size:19px}.catalog-nav .util{font-size:9px;gap:8px}}
 
 .catalog-nav .mk{font-size:clamp(13px,1.55vw,22px);letter-spacing:.1em;padding-left:.1em;white-space:nowrap}
+.catalog-nav .bar{grid-template-columns:1fr auto 1fr}
+.catalog-nav ul{justify-self:end}
+.catalog-nav .brand-logo{display:block;width:58px;height:58px;object-fit:contain}
+@media(max-width:900px){.catalog-nav .bar{grid-template-columns:1fr auto 1fr}.catalog-nav .brand-logo{width:48px;height:48px}}
 </style>
 </head>
 <body>
 <nav class="catalog-nav">
   <div class="wrap bar">
-    <ul><li><a href="#overview" data-view="overview" aria-current="page">Overview</a></li></ul>
+    <a href="#overview" aria-label="Pedro Souza — início"><img class="brand-logo" src="assets/pedro-logo.png" data-base64-src="assets/pedro-logo.png.base64" alt="Logo Pedro Souza"></a>
     <div class="mk">PEDRO SOUZA</div>
+    <ul><li><a href="#overview" data-view="overview" aria-current="page">Overview</a></li></ul>
   </div>
 </nav>
 <main id="overview" class="catalog-stage">
@@ -33,6 +38,9 @@ body{min-height:100vh}
 </main>
 <script>
 (function(){
+  document.querySelectorAll('[data-base64-src]').forEach(function(img){
+    fetch(img.dataset.base64Src).then(function(response){if(!response.ok)throw new Error('Logo não encontrada');return response.text()}).then(function(encoded){img.src='data:image/png;base64,'+encoded.trim()}).catch(function(){});
+  });
   const tabs=[...document.querySelectorAll('[data-view]')];
   function select(){
     if(location.hash==='#components') history.replaceState(null,'','#overview');
